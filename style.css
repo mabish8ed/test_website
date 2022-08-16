@@ -1,3 +1,44 @@
+@font-face {
+    font-family: Oxanium-Bold;
+    src: url(fonts/Oxanium-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: Oxanium-ExtraBold;
+    src: url(fonts/Oxanium-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Oxanium-ExtraLight;
+    src: url(fonts/Oxanium-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Oxanium-Light;
+    src: url(fonts/Oxanium-Light.ttf);
+}
+
+
+@font-face {
+    font-family: Oxanium-Medium;
+    src: url(fonts/Oxanium-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: Oxanium-Regular;
+    src: url(fonts/Oxanium-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oxanium-SemiBold;
+    src: url(fonts/Oxanium-SemiBold.ttf);
+}
+
+
+
+
 html {
     height: 100%;
 }
@@ -38,7 +79,7 @@ main {
     padding-top: 80px;
     padding-left: 240px;
     padding-right: 240px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Oxanium-Regular;
 }
 
 footer {
@@ -51,18 +92,18 @@ footer {
 h1 {
     font-size: 84px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Oxanium-SemiBold;
 }
 
 p {
     font-size: 18px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Oxanium-Regular;
 }
 
 a {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Oxanium-Regular;
     /* text-decoration: none; */
 }
 
@@ -74,7 +115,7 @@ nav a{
 }
 
 footer p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Oxanium-Regular;
     font-size: 12px;
     text-align: center;
 }
